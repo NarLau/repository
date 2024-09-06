@@ -1,0 +1,18 @@
+.article {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article {
+    border: 1px solid black;
+    
+}
+
+aside {
+    border: 1px solid black;    
+}
+
+.img-article-1 {
+    max-width: 400px;
+    max-height: 400px;
+}
