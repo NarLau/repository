@@ -1,8 +1,8 @@
-.navbar{
+.nav{
     background-color: red;
     overflow: hidden;
 }
-.navbar a {
+.navtoggle a {
     float: left;
     color: inherit;
     display: block;
@@ -11,10 +11,10 @@
     text-decoration: none;
 
 }
-.navbar a:hover{
+.nav a:hover{
     background-color: brown;
 }
-.navbar ul{
+.nav ul{
     list-style: none;
 }
 .active{
