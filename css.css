@@ -1,0 +1,50 @@
+.navbar{
+    background-color: red;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: inherit;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    background-color: brown;
+}
+.navbar ul{
+    list-style: none;
+}
+.active{
+    background-color: darkred;
+}
+.searchcontainer{
+    float:right;
+}
+.searchcontainer input[type=text] { 
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ .searchcontainer button {
+    float: right;
+    padding: 6px 40px;
+    margin-top: 8px;
+    margin-right: 17px;
+    background: #e98787;
+    font-size: 17px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.navtoggle .searchcontainer button:hover {
+    background-color: #b04646;
+}
