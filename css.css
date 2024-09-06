@@ -1,0 +1,26 @@
+.sections{
+    background-color: beige;
+    display: flex;
+}
+p{
+font-size:medium;    
+}
+
+section .cat-1{
+    border: 2x solid black;
+    background-color: aqua;
+}
+section .car-1 p{
+    color:whitesmoke;
+    border: 2px solid black;
+}
+section .car-1{
+background-color: black;
+border: 2px solid black;
+}
+
+
+section .mouse-3{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
