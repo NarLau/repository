@@ -1,6 +1,10 @@
 .sections{
     background-color: beige;
     display: flex;
+
+}
+section img{
+    height: 100px;
 }
 p{
 font-size:medium;    
